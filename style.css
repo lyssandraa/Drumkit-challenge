@@ -1,0 +1,14 @@
+html,
+body {
+  font-family: cursive;
+  background-color: black;
+  color: aliceblue;
+}
+
+.soundName {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 40px;
+}
