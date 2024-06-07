@@ -97,3 +97,18 @@ ride.addEventListener("click", playDrumSound);
 snare.addEventListener("click", playDrumSound);
 tink.addEventListener("click", playDrumSound);
 tom.addEventListener("click", playDrumSound);
+
+function hideWelcomeMes() {
+  const welcomeMes = document.getElementById("welcomeMes");
+  const drumContainer = document.getElementById("drumContainer");
+
+  welcomeMes.classList.add("hidden");
+  drumContainer.classList.remove("hidden");
+  drumContainer.style.opacity = 1;
+}
+
+document.addEventListener("mousemove", () => {
+  setTimeout(() => {
+    hideWelcomeMes();
+  }, 1000);
+});
