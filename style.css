@@ -80,3 +80,25 @@ body {
   visibility: hidden;
   transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
 }
+
+@media only screen and (max-width: 1200px) {
+  .soundName {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .soundName {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+  }
+}
