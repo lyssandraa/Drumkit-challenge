@@ -32,12 +32,15 @@ body {
   transition: opacity 1s ease-in-out;
 }
 
+.titleName {
+  font-size: 30px;
+}
+
 .soundName {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 80px;
-  padding: 0 30px 0 30px;
+  gap: 60px;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -46,6 +49,18 @@ body {
 
 .soundBox {
   text-align: center;
+}
+
+.soundBox h2 {
+  font-size: 15px;
+}
+
+.soundBox p {
+  background-image: linear-gradient(to right, grey, #404040);
+  color: white;
+  padding: 0 5px 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .drum {
@@ -57,7 +72,6 @@ body {
 
 .fa-drum {
   font-size: 150px;
-  color: aliceblue;
 }
 
 .hidden {
